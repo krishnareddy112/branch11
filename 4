@@ -1,0 +1,62 @@
+  1  yum install git -y
+    2  git init .
+    3  git config --global user.name "krishna"
+    4  git config --global user.email "krishna11@gmail.com"
+    5  touch f1
+    6  git add f1
+    7  git commit -m "f1 file"
+    8  git branch
+    9  rm -rf *
+   10  ll
+   11  touch f1
+   12  git status
+   13  git add f1
+   14  git status
+   15  git branch
+   16  rm -rf *
+   17  touch file1.txt
+   18  git status
+   19  git add file1.txt
+   20  git status
+   21  git stash
+   22  git stash list
+   23  git status
+   24  touch file2.txt
+   25  git add file2.txt
+   26  git status
+   27  git stash
+   28  git stash list
+   29  git stash apply
+   30  git stash show
+   31  git stash stash@{1}
+   32  git stash apply stash@{1}
+   33  git branch
+   34  git checkout -b krishna
+   35  ll
+   36  touch file3 file 4
+   37  git status
+   38  git add 4 file file3
+   39  git commit -m "file3"
+   40  git commit -m "f4"
+   41  ll
+   42  git checkout master
+   43  ll
+   44  touch file5
+   45  git add file5
+   46  git commit -m "file5"
+   47  ll
+   48  git checkout krishna
+   49  ll
+   50  git checkout -b chaitu
+   51  ll
+   52  git checkout master
+   53  ll
+   54  git checkout -b prasad
+   55  ll
+   56  git remote add origin https://github.com/krishnareddy112/branch11.git
+   57  git push origin prasad
+   58  git checkout krishna
+   59  git push origin krishna
+   60  git checkout chaitu
+   61  git push origin chaitu
+   62  history
